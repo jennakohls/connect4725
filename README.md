@@ -20,3 +20,7 @@ they find an option which works.
 Standard AIs for playing games like chess, go, and tic tac toe rely on
 minimax algorithms, for determining optimal moves from both players, and alpha-beta
 pruning to be more efficient.
+
+I wanted to find some kind of middle ground that would encapsulate both the
+aspects of reading your human opponent and of learning strategies through AI play. As such, the AI that I added to this game acts optimally (minimax-wise) but in small chunks of gameplay, rather than for the game as a whole. Additionally, there are random suboptimizations, and decisions between equal moves are based on a fixed
+pattern, so they can be learned.
